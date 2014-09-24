@@ -1,6 +1,4 @@
-# Mathias’s dotfiles
-
-![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
+# Philipp's dotfiles
 
 ## Installation
 
@@ -87,15 +85,9 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 brew bundle ~/Caskfile
 ```
 
-## Feedback
-
-Suggestions/improvements
-[welcome](https://github.com/mathiasbynens/dotfiles/issues)!
 
 ## Author
-
-| [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
-|---|
+mostly
 | [Mathias Bynens](https://mathiasbynens.be/) |
 
 ## Thanks to…
