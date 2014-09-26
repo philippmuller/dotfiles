@@ -24,6 +24,9 @@ install bash-completion
 # Install wget with IRI support
 install wget --enable-iri
 
+# Install Tree
+install tree
+
 # Install RingoJS and Narwhal
 # Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
 install ringojs
