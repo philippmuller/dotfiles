@@ -82,3 +82,16 @@ export PATH="/Users/philipp/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/us
 source .aliases
 
 export PATH="/Users/philipp/anaconda3/bin:$PATH"
+
+# little function that builds some text file in a given directory
+# and opens it
+
+function maket() {
+  local name=$@
+  if [[ $@ == "" ]]; then
+    name="$(ls -1  *.tex | sed -e 's/\..*$//')"
+  fi
+  pdflatex "$name.tex"
+  open "$name.pdf"
+}
+
